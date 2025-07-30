@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="static/styles/main.css">
+    <link rel="stylesheet" href="static/styles/main.css" />
     <title>You're not alone!</title>
-</head>
-<body>
-    <h1 class="font-light">You're not alone!</h1>
+  </head>
+  <body>
+    <nav
+      class="flex items-center justify-between border border-gray py-4 px-12"
+    >
+      <div class="text-4xl font-bold text-indigo-600 tracking-wide">
+        <img src="static/images/logo.png" alt="Logo" class="h-20 w-auto" />
+      </div>
+      <ul class="flex">
+        <li class="inline-block ml-8">
+          <button onclick="showTheContent('home')">Home</button>
+        </li>
+        <li class="inline-blockb ml-8">
+          <button onclick="showTheContent('about')">About</button>
+        </li>
+        <li class="inline-block ml-8">
+          <button onclick="showTheContent('contact')">Contact</button>
+        </li>
+      </ul>
+    </nav>
+    <div id="content"></div>
 
-</body>
+    <script src="static/js/main.js"></script>
+  </body>
 </html>
