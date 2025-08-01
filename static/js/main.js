@@ -58,3 +58,18 @@
         document.getElementById("content").innerHTML = content[page]
     }
 
+    if (page === "home") {
+    const supportBtn = document.getElementById("GetSupportNow");
+    if (supportBtn) {
+     supportBtn.addEventListener("click", () => {
+  document.getElementById("content").classList.add("hidden");
+
+  document.getElementById("eligibilityQuestion").classList.remove("hidden");
+
+  document.getElementById("eligibilityQuestion").scrollIntoView({ behavior: "smooth" });
+});
+
+     
+    }
+  }
+
