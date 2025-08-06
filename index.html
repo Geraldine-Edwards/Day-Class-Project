@@ -9,7 +9,6 @@
     <title>You're not alone!</title>
   </head>
   <body>
-    
     <nav
       class="flex items-center justify-between border border-gray py-4 px-12"
     >
@@ -33,6 +32,19 @@
   <button id="GetSupportNow" class="bg-green-700 text-white px-5 py-2.5 rounded">
   Get Support Now
 </button>
+   <template id="serviceTemplate">
+      <div class="service-card">
+        <a href="#" target="_blank" rel="noopener">
+          <div class="service-header shadow-box">
+            <span class="service-name"></span>
+            <p>Phone number</p>
+            <address>Address</address>
+            <a href="#" >website</a>
+          </div>
+        </a>
+      </div>
+    </template>
+    <div id="root"></div>
 
 </body>
 </html>

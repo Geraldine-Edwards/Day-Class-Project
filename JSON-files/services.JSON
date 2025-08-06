@@ -1,0 +1,19 @@
+[
+    {"name":"abc",
+    "address":"1 abc lane",
+    "web":"www.abc.org",
+    "phone":"12345",
+    "service":"housing"
+},
+   {"name":"xyz",
+    "address":"1 xyz avenue",
+    "web":"www.xyz.com",
+    "phone":"54321",
+    "service":"employment"
+},
+  {"name":"123",
+    "address":"1 numbers street",
+    "web":"www.123.net",
+    "phone":"00112233",
+    "service":"energy"
+}]

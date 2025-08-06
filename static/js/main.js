@@ -1,3 +1,39 @@
+ let services = [];
+
+async function loadServices() {
+  try {
+    const res = await fetch('./JSON-files/services.JSON');
+    if (!res.ok) throw new Error('services not fetched correctly');
+    const data = await res.json();
+    services = data;
+    displayRandomService();
+  } catch (err) {
+    document.getElementById("serviceTemplate").textContent = 'Could not load services.';
+    console.error('Error:', err);
+  }
+}
+
+loadServices();
+ 
+ 
+
+const displayRandomService=()=>{
+    const root = document.getElementById("root");
+    root.innerHTML = "";
+
+  services.forEach((service) => {
+    const clone = document.getElementById("serviceTemplate").content.cloneNode(true);
+    clone.querySelector("span").textContent=service.name
+    clone.querySelector("p").textContent = service.phone
+   clone.querySelector("address").textContent = service.address 
+   clone.querySelector("a").textContent = service.web 
+  root.appendChild(clone)
+
+  });
+
+}
+
+
  const showTheContent = (page)=>{
           let content = {
             home:`
