@@ -9,7 +9,8 @@
       "name": "Food Org A",
       "address": "123 Food St",
       "contact": "123-456-7890",
-      "website": "https://fooda.org"
+      "website": "https://fooda.org",
+      "email": "contact@fooda.org"
     },
     {
       "id": "food-2",
@@ -17,7 +18,8 @@
       "name": "Food Org B",
       "address": "456 Food Ave",
       "contact": "234-567-8901",
-      "website": "https://foodb.org"
+      "website": "https://foodb.org",
+      "email": "contact@foodb.org"
     },
     {
       "id": "food-3",
@@ -25,7 +27,8 @@
       "name": "Food Org C",
       "address": "789 Food Blvd",
       "contact": "345-678-9012",
-      "website": "https://foodc.org"
+      "website": "https://foodc.org",
+      "email": "contact@foodc.org"
     },
     {
       "id": "housing-1",
@@ -33,7 +36,8 @@
       "name": "Housing Org A",
       "address": "123 House St",
       "contact": "456-789-0123",
-      "website": "https://housea.org"
+      "website": "https://housea.org",
+      "email": "contact@housea.org"
     },
     {
       "id": "housing-2",
@@ -41,7 +45,8 @@
       "name": "Housing Org B",
       "address": "456 House Ave",
       "contact": "567-890-1234",
-      "website": "https://houseb.org"
+      "website": "https://houseb.org",
+      "email": "contact@houseb.org"
     },
     {
       "id": "housing-3",
@@ -49,7 +54,8 @@
       "name": "Housing Org C",
       "address": "789 House Blvd",
       "contact": "678-901-2345",
-      "website": "https://housec.org"
+      "website": "https://housec.org",
+      "email": "contact@housec.org"
     },
     {
       "id": "benefits-1",
@@ -57,7 +63,8 @@
       "name": "Benefits Org A",
       "address": "123 Benefit St",
       "contact": "789-012-3456",
-      "website": "https://benefita.org"
+      "website": "https://benefita.org",
+      "email": "contact@benefita.org"
     },
     {
       "id": "benefits-2",
@@ -65,7 +72,8 @@
       "name": "Benefits Org B",
       "address": "456 Benefit Ave",
       "contact": "890-123-4567",
-      "website": "https://benefitb.org"
+      "website": "https://benefitb.org",
+      "email": "contact@benefitb.org"
     },
     {
       "id": "benefits-3",
@@ -73,7 +81,8 @@
       "name": "Benefits Org C",
       "address": "789 Benefit Blvd",
       "contact": "901-234-5678",
-      "website": "https://benefitc.org"
+      "website": "https://benefitc.org",
+      "email": "contact@benefitc.org"
     },
     {
       "id": "children-1",
@@ -81,7 +90,8 @@
       "name": "Children Org A",
       "address": "123 Child St",
       "contact": "012-345-6789",
-      "website": "https://childa.org"
+      "website": "https://childa.org",
+      "email": "contact@childa.org"
     },
     {
       "id": "children-2",
@@ -89,7 +99,8 @@
       "name": "Children Org B",
       "address": "456 Child Ave",
       "contact": "123-456-7890",
-      "website": "https://childb.org"
+      "website": "https://childb.org",
+      "email": "contact@childb.org"
     },
     {
       "id": "children-3",
@@ -97,7 +108,8 @@
       "name": "Children Org C",
       "address": "789 Child Blvd",
       "contact": "234-567-8901",
-      "website": "https://childc.org"
+      "website": "https://childc.org",
+      "email": "contact@childc.org"
     },
     {
       "id": "employment-1",
@@ -105,7 +117,8 @@
       "name": "Employment Org A",
       "address": "123 Work St",
       "contact": "345-678-9012",
-      "website": "https://worka.org"
+      "website": "https://worka.org",
+      "email": "contact@worka.org"
     },
     {
       "id": "employment-2",
@@ -113,7 +126,8 @@
       "name": "Employment Org B",
       "address": "456 Work Ave",
       "contact": "456-789-0123",
-      "website": "https://workb.org"
+      "website": "https://workb.org",
+      "email": "contact@workb.org"
     },
     {
       "id": "employment-3",
@@ -121,7 +135,8 @@
       "name": "Employment Org C",
       "address": "789 Work Blvd",
       "contact": "567-890-1234",
-      "website": "https://workc.org"
+      "website": "https://workc.org",
+      "email": "contact@workc.org"
     },
     {
       "id": "advice-1",
@@ -129,7 +144,8 @@
       "name": "Advice Org A",
       "address": "123 Advice St",
       "contact": "678-901-2345",
-      "website": "https://advicea.org"
+      "website": "https://advicea.org",
+      "email": "contact@advicea.org"
     },
     {
       "id": "advice-2",
@@ -137,7 +153,8 @@
       "name": "Advice Org B",
       "address": "456 Advice Ave",
       "contact": "789-012-3456",
-      "website": "https://adviceb.org"
+      "website": "https://adviceb.org",
+      "email": "contact@adviceb.org"
     },
     {
       "id": "advice-3",
@@ -145,7 +162,8 @@
       "name": "Advice Org C",
       "address": "789 Advice Blvd",
       "contact": "890-123-4567",
-      "website": "https://advicec.org"
+      "website": "https://advicec.org",
+      "email": "contact@advicec.org"
     }
   ]
 }
