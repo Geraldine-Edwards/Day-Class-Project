@@ -5,7 +5,13 @@ const showTheContent = (page) => {
   let content = {
     home: `
    
-            <div class="w-full h-screen bg-gray-100 bg-[url(/static/images/helping.jpg)] bg-cover bg-no-repeat"> 
+            <div class="w-full h-screen bg-gray-100 bg-[url(/static/images/helping.jpg)] bg-cover bg-no-repeat p-12 relative"> 
+            <div class="pt-[5rem]">
+            <h1>hello Rahwa</h1></div>
+              <div class="absolute bottom-[40px] left-[40px] h-[200px] w-[300px] border border-grey-100 overflow-hidden">
+                <iframe class="w-full h-full" src="https://www.youtube.com/embed/We2ZD0-IXPM" title="Investigating the Tesla Robotaxi!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+              </div>
             </div>
             
           `,
