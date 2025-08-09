@@ -4,23 +4,11 @@ window.addEventListener("DOMContentLoaded", () => {
 const showTheContent = (page) => {
   let content = {
     home: `
-            <div class="flex items-center justify-between gap-6 mt-4 ml-4 mr-4 mb-4">
-            <div class="w-1/2 text-gray-700 mt">
-              <h1>WELCOME TO <strong>You're not alone!</strong></h1>
-              <p>Whether you’re facing food insecurity, housing issues, or financial hardship — <strong>you’re not alone</strong>. Discover the support available near you.</p>
+            <div class="w-full h-[75rem] bg-gray-100"> 
             </div>
-            <img src="/static/images/help.jpg" alt="Example image" class="w-1/2 max-w-sm object-contain" />
-            </div>
-            <button
-                onclick="showTheContent('support')"
-                type="button"
-                class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
-              >
-                Get Support Now
-            </button>
           `,
     about: `
-            <div class = "max-w-5xl mx-auto">
+            <div class = "">
                 <h1 class="text-3xl font-bold mb-4"> About Us</h1>
                 <p class="mb-4">
                     We are a small but passionate charity dedicated to making a meaningful difference in the lives of those who need it most. 
@@ -47,7 +35,7 @@ const showTheContent = (page) => {
               </button>
       `,
     contact: `
-                <div class="max-w-5xl mx-auto">
+                <div class="">
                     <h1 class="text-3xl font-bold mb-4">Contact Us</h1>
                     <p class="mb-4">If you have any questions, want to volunteer, or would like to support our cause, we'd love to hear from you.</p>
                     
@@ -68,7 +56,7 @@ const showTheContent = (page) => {
                     </form>
                     </div>`,
     support: `
-                <div class="max-w-5xl mx-auto">
+                <div class="">
                   <h1 class="text-3xl font-bold mb-4">Support Services Available</h1>
                   <p class="mb-4">We offer a range of support services to help you in your time of need. Our dedicated team is here to assist you with:</p>
                   <ul class="list-disc list-inside mb-4">
@@ -82,7 +70,7 @@ const showTheContent = (page) => {
                   <p class="mb-4">If you or someone you know is in need of support, please don't hesitate to reach out to us. We're here to help!</p>
               </div>`,
     food: `
-              <div class="flex flex-col md:flex-row items-start gap-x-6 mb-6 max-w-5xl mx-auto">
+              <div class="flex flex-col md:flex-row items-start gap-x-6 mb-6 ">
                 <button
                     onclick="showTheContent('support')"
                     type="button"
@@ -98,7 +86,7 @@ const showTheContent = (page) => {
               </div>
           `,
     housing: `
-              <div class="flex flex-col md:flex-row items-start gap-x-6 mb-6 max-w-5xl mx-auto">
+              <div class="flex flex-col md:flex-row items-start gap-x-6 mb-6">
                 <button
                     onclick="showTheContent('support')"
                     type="button"
@@ -114,7 +102,7 @@ const showTheContent = (page) => {
               </div>
       `,
     children: `
-              <div class="flex flex-col md:flex-row items-start gap-x-6 mb-6 max-w-5xl mx-auto">
+              <div class="flex flex-col md:flex-row items-start gap-x-6 mb-6">
                 <button
                     onclick="showTheContent('support')"
                     type="button"
@@ -130,7 +118,7 @@ const showTheContent = (page) => {
               </div>
           `,
     benefits: `
-              <div class="flex flex-col md:flex-row items-start gap-x-6 mb-6 max-w-5xl mx-auto">
+              <div class="flex flex-col md:flex-row items-start gap-x-6 mb-6">
                 <button
                     onclick="showTheContent('support')"
                     type="button"
@@ -146,7 +134,7 @@ const showTheContent = (page) => {
               </div>
           `,
     employment: `
-              <div class="flex flex-col md:flex-row items-start gap-x-6 mb-6 max-w-5xl mx-auto">
+              <div class="flex flex-col md:flex-row items-start gap-x-6 mb-6">
                 <button
                     onclick="showTheContent('support')"
                     type="button"
@@ -162,7 +150,7 @@ const showTheContent = (page) => {
               </div>
           `,
     advice: `
-              <div class="flex flex-col md:flex-row items-start gap-x-6 mb-6 max-w-5xl mx-auto">
+              <div class="flex flex-col md:flex-row items-start gap-x-6 mb-6">
                 <button
                     onclick="showTheContent('support')"
                     type="button"
