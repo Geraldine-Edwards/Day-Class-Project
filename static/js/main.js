@@ -5,26 +5,9 @@ const showTheContent = (page) => {
   let content = {
     home: `
    
-            <div class="w-full h-screen bg-gray-100"> 
-             <nav
-      class="flex items-center justify-between py-4 px-12"
-    >
-      <div class="text-4xl font-bold text-indigo-600 tracking-wide">
-        <a href="/"><img src="static/images/logo.png" alt="Logo" class="h-20 w-auto" /></a>
-      </div>
-      <ul class="flex">
-        <li class="inline-block ml-8">
-          <button onclick="showTheContent('home')">Home</button>
-        </li>
-        <li class="inline-blockb ml-8">
-          <button onclick="showTheContent('about')">About</button>
-        </li>
-        <li class="inline-block ml-8">
-          <button onclick="showTheContent('contact')">Contact</button>
-        </li>
-      </ul>
-    </nav>
+            <div class="w-full h-screen bg-gray-100 bg-[url(/static/images/helping.jpg)] bg-cover bg-no-repeat"> 
             </div>
+            
           `,
     about: `
             <div class = "">

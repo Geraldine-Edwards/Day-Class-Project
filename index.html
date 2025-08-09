@@ -9,7 +9,24 @@
     <title>You're not alone!</title>
   </head>
   <body>
-    
+    <nav
+      class="flex items-center justify-between py-4 px-12 w-full absolute top-0 left-0 right-0"
+    >
+      <div class="text-4xl font-bold text-indigo-600 tracking-wide">
+        <a href="/"><img src="static/images/logo.png" alt="Logo" class="h-20 w-auto" /></a>
+      </div>
+      <ul class="flex">
+        <li class="inline-block ml-8 text-white">
+          <button onclick="showTheContent('home')">Home</button>
+        </li>
+        <li class="inline-blockb ml-8 text-white">
+          <button onclick="showTheContent('about')">About</button>
+        </li>
+        <li class="inline-block ml-8 text-white">
+          <button onclick="showTheContent('contact')">Contact</button>
+        </li>
+      </ul>
+    </nav>
     <div class="" id="content"></div>
   </body>
 </html>
